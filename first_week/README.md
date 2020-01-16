@@ -3,6 +3,7 @@
 ## Useful links:
 
 * The most important one: [Python 3 documentation](https://docs.python.org/3/)
+* [Python short tutorials on the concepts from the course](https://www.tutorialspoint.com/python/index.htm)
 * [Beginner to Advanced Python Exercises](https://www.practicepython.org/)
 * [More python exercises](https://www.w3resource.com/python-exercises/)
 
@@ -401,4 +402,72 @@ if b == 0:
     raise ValueError("Division by zero is not possible.")  # the program will exit here and return the error
 
 a / b
+```
+
+### Classes
+Classes are key to Object Oriented Programming (OOP). They define a mold from which objects will be created. In the class, the behaviour and attributes of the objects are defined.
+
+```python
+"""
+Syntax:
+    class <name of class>:
+        <attribute1> = <value>
+
+        def <method 1>(self, <parameter1>):
+            do something
+
+        def <method 2>(self, <parameter1>):
+            do something
+"""
+
+class Animal:
+    type_of_animal = "llama"  # this is an attribute
+
+    def __init__(self, name):  # Run only when an object is created
+        self.name = name
+
+    def feed(self, food):     # this is a method
+        print("Eating", food)
+
+    def sleep(self, time):    # this is another method
+        print("Sleeping for", time, "hours.")
+
+"""
+To create (or instanciate) an object of type Animal we assign it to a variable.
+
+Syntax:
+    <name of object> = <name of class>()
+"""
+llama = Animal("Bobby")
+dog = Animal("Fido")
+dog.type_of_animal = "dog"
+
+llama.feed("ichu")
+dog.feed("meat")
+
+"""
+Inheritance is when we use a previously defined class and expand its behaviour and attributes. If methods and attributes are defined again with the same name then the behaviour or value changes for this new class.
+
+Syntax:
+    class <name of class>(<name of class to inherit from>):
+        <attribute2> = <value>
+
+        def <new method 1>(self, <parameter1>):
+            do something
+
+        def <method 2>(self, <parameter1>):
+            do something
+"""
+class Pet(Animal):
+    def pet_me(self):
+        print("Petting the animal.")
+
+"""
+Now we can instanciate a pet.
+"""
+cat = Animal("Garfield")
+cat.type_of_animal = "cat"
+
+cat.pet_me()
+cat.feed("fish")
 ```
