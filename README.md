@@ -2,7 +2,7 @@
 MPI Python Course Resources
 
 # Python Course First Week
-Find the resources under folder [first_week](https://github.com/dschurholz/mpi-python-course/first_week/). 
+Find the resources under folder [first_week](https://github.com/dschurholz/mpi-python-course/first_week/).
 
 # Python Course Second Week
 Find the resources under folder `second_week`. Please install the program Git following the next set of instructions in this file.

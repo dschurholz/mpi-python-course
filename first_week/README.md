@@ -1,5 +1,11 @@
 # First week resources (Basic python introduction)
 
+## Useful links:
+
+* The most important one: [Python 3 documentation](https://docs.python.org/3/)
+* [Beginner to Advanced Python Exercises](https://www.practicepython.org/)
+* [More python exercises](https://www.w3resource.com/python-exercises/)
+
 ## Examples
 Different examples similar to those seen during the course can be found in the [examples folder](https://github.com/dschurholz/mpi-python-course/first_week/examples/). They are meant to help you read python code with the new concepts learned through the course. You can go through them and understand what each line does and what the expected output will be. Later on execute it and compare the output.
 
