@@ -6,6 +6,11 @@
 * [Python short tutorials on the concepts from the course](https://www.tutorialspoint.com/python/index.htm)
 * [Beginner to Advanced Python Exercises](https://www.practicepython.org/)
 * [More python exercises](https://www.w3resource.com/python-exercises/)
+* Beginner: automate the boring stuff
+* Details: think like a computer scientist
+* Community: [Reddit](https://reddit.com/r/learnpython)
+* Logic challenges: [Project Euler](https://projecteuler.net/)
+* [Use Stackoverflow!](https://www.stackoverflow.com/)
 
 ## Examples
 Different examples similar to those seen during the course can be found in the [examples folder](https://github.com/dschurholz/mpi-python-course/first_week/examples/). They are meant to help you read python code with the new concepts learned through the course. You can go through them and understand what each line does and what the expected output will be. Later on execute it and compare the output.
