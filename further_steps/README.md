@@ -1,4 +1,4 @@
-# Second week resources (Applied )
+# Advanced resources (Applied)
 The second part of the python course is going 
 
 In preparation for the second part of the 2020 python course please install `Git` following the next set of instructions in this file.
